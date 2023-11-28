@@ -7,7 +7,7 @@ class MainApp:
     def __init__(self):
         #窗口不应该由入口文件维护，由页面组件自己维护，会设计到不同页面组件的销毁和新建
         self.root = Tk()
-        self.root.title("My App")
+        self.root.title("TKinter App")
 
         self.auth_service = AuthService()
 
